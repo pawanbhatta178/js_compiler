@@ -1,0 +1,10 @@
+{
+    "test1":[
+    {"id":"test1","arguments":["4", "5"],"expectedOutput":"9","argSize":2, "argType":"array", "returnType":"string"},
+        {"id":"test2","arguments":["abcdefg", "3"],"expectedOutput":"-1","argSize":2, "argType":"array", "returnType":"string"},
+            {"id":"test3","arguments":["1", ""],"expectedOutput":"1","argSize":2, "argType":"array", "returnType":"string"}
+
+]
+
+
+}

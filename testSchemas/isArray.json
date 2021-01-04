@@ -1,0 +1,12 @@
+{
+    "test1":[
+    {"id":"test1","arguments":"[[1, 2, -1, 4, 5], 20]","expectedOutput":"true","argSize":1, "argType":"array", "returnType":"boolean"},
+    {"id":"test2","arguments":[[1, 2, 3, 4, 5], 10],"expectedOutput":"true","argSize":1, "argType":"array","returnType":"boolean"},
+        {"id":"test3","arguments":[[100, 12, 4, 1, 2], 15],"expectedOutput":true,"argSize":1, "argType":"array","returnType":"boolean"},
+            {"id":"test3","arguments":{"name":"gita"},"expectedOutput":false,"argSize":1, "argType":"array","returnType":"boolean"},
+            {"id":"test3","arguments":"{\"name\":[3,4,3,2,23,23]}","expectedOutput":false,"argSize":1, "argType":"array","returnType":"boolean"}
+
+]
+
+
+}

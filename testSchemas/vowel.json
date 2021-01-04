@@ -1,0 +1,11 @@
+{
+    "test1":[
+    {"id":"test1","arguments":"b","expectedOutput":"a","argSize":1, "argType":"string", "returnType":"string"},
+    {"id":"test2","arguments":"s","expectedOutput":"u","argSize":1, "argType":"string", "returnType":"string"},
+    {"id":"test3","arguments":"c","expectedOutput":"a","argSize":1, "argType":"string", "returnType":"string"},
+    {"id":"test4","arguments":"i","expectedOutput":"i","argSize":1, "argType":"string", "returnType":"string"}
+
+]
+
+
+}

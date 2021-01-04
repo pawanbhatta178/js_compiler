@@ -1,0 +1,16 @@
+{
+  "name": "js_compiler",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "lodash.isequal": "^4.5.0",
+    "serialize-error": "^7.0.1"
+  }
+}

@@ -1,0 +1,5 @@
+{
+    "test1":"[{\"id\":\"test1\",\"arguments\":[[1, 1, 1], [1, 1, 1]],\"expectedOutput\":true,\"argSize\":2, \"argType\":\"array\", \"returnType\":\"boolean\"},{\"id\":\"test2\",\"arguments\":[[1, 1, 1], [2, 2, 2]],\"expectedOutput\":true,\"argSize\":2, \"argType\":\"array\",\"returnType\":\"boolean\"}]"
+
+
+}
