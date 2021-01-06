@@ -2,17 +2,19 @@ require('dotenv').config();
 const { timedOutError } = require("./constants");
 const kill  = require('tree-kill');
 const spawn = require('child_process').spawn;
-const child = spawn('node', ['app.js']);
 const writeToFile = require("./writeToFile");
 
-const timeout = setTimeout(()=>{
+const child = spawn('node', ['app.js']);
+
+const timeout = setTimeout(() => {
+  console.log("Killing child processes!");
   writeToFile({ data: timedOutError })
   kill(child.pid);
 }, 1000);
 
 child.on('exit', ()=>{
   clearTimeout(timeout);
-  console.log('Child exited!');
+  console.log('Child exited normally!');
 });
 
 child.stdout.on('data',  (data)=> {
