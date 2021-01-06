@@ -1,12 +1,6 @@
-{
-    "test1":[
+[
     {"id":"test1","arguments":"[{\"a\":1,\"b\":2},{\"a\":1,\"b\":2} ]","expectedOutput":6,"argSize":2, "argType":"array", "returnType":"number"},
     {"id":"test2","arguments":[{"a":1,"b":3},{"a":1,"b":2}],"expectedOutput":7,"argSize":2, "argType":"array","returnType":"number"}
-],
-"test2":[
-    {"id":"test1","arguments":"[{\"a\":1,\"b\":2},{\"a\":1,\"b\":2} ]","expectedOutput":6,"argSize":1, "argType":"array", "returnType":"number"},
-        {"id":"test2","arguments":[{"a":1,"b":3},{"a":1,"b":2}],"expectedOutput":7,"argSize":1, "argType":"array","returnType":"number"}
 ]
 
 
-}

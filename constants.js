@@ -8,7 +8,7 @@ module.exports = {
         error:"Only function are allowed to be assigned to module.exports like: module.exports=myFunction"
     },
     notArrayError: {
-        error:"testSchema is supposed to contain array of tests Objects. Check whether test array is passed as string"
+        error:"testSchema is supposed to contain array of tests Objects. Check whether test array is passed as string or as object"
     },
     timedOutError: {
         error:

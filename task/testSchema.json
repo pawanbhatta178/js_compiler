@@ -1,5 +1,14 @@
-[
-    {"id":"test1","arguments":"3","expectedOutput":"82.699","argSize":1, "argType":"number", "returnType":"number"},
-    {"id":"test2","arguments":"12","expectedOutput":"98.862","argSize":1, "argType":"number", "returnType":"number"},
-    {"id":"test3","arguments":100,"expectedOutput":99.984,"argSize":1, "argType":"number", "returnType":"number"},
-    {"id":"test4","arguments":1000,"expectedOutput":"100.0","argSize":1, "argType":"number", "returnType":"number"}]
+
+  [
+    {"id":"test1","arguments":"https://www.google.com/search/test.js?ok=1","expectedOutput":{
+        "protocol": "https",
+        "argumentsFile": "?ok=1",
+        "ipAdress": null,
+        "subDomain": "www",
+        "domainName": "google.com",
+        "targetFile": "test.js"
+       
+      },"argSize":1, "argType":"string", "returnType":"object"}
+]
+
+
