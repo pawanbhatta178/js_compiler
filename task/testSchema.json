@@ -7,7 +7,6 @@
         "subDomain": "www",
         "domainName": "google.com",
         "targetFile": "test.js"
-       
       },"argSize":1, "argType":"string", "returnType":"object"}
 ]
 
